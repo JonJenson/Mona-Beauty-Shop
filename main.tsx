@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './Frontend/App'
 import "./main.css"
+import 'boxicons/css/boxicons.min.css';
+
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

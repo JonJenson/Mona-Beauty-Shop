@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;700;900&display=swap");
+
+:root {
+  /* Fonts */
+  --Poppins: "Poppins", sans-serif;
+  --PlayfairDisplay: "Playfair Display", serif;
+  /* Colors */
+  --color-white: rgba(255, 255, 255, 1);
+  --color-black: rgba(0, 0, 0, 1);
+  --color-F7F7F: rgba(67, 86, 140, 1); 
+  --color-B1B1B1: rgba(255, 236, 159, 1);
+  --color-B1B1B1-50: rgba(255, 236, 159, 0.5); 
+  --color-6AC4E0: rgba(106, 196, 224, 1);
+  --color-6AC4E0-50: rgba(106, 196, 224, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* background-color: var(--color-F7F7F7); */
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
