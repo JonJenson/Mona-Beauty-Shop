@@ -1,13 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './Frontend/App'
-import "./main.css"
+// index.tsx
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './Frontend/App';
+import { BrowserRouter } from 'react-router-dom';
+import './main.css';
 import 'boxicons/css/boxicons.min.css';
 
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
-
-ReactDOM.createRoot(document.getElementById('root')!).render(
+root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
