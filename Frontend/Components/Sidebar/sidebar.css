@@ -1,4 +1,4 @@
-.sidebar-wrapper {
+.sidebar-wrapper{
     height:85vh;
     width: 20%;
     min-width:fit-content;
@@ -7,18 +7,18 @@
     font-family: var(--Poppins);
     position: fixed; /* Fixed position to stay in place */
     top:15vh;
-    left: 0;
+    left: 0px;
     overflow-y: auto; /* Allow scrolling if content overflows */
     padding:10px; /* Add padding for better spacing */
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Optional shadow for better visibility */
     z-index: 10; /* Ensure it appears above other content */
 }
-
 .sidebar-items {
     list-style: none;
     padding: 0; /* Remove default padding */
     padding-top: 10vh;
     margin: 0; /* Remove default margin */
+
 }
 
 .sidebar-item {
@@ -27,7 +27,8 @@
     padding: 10px 15px; /* Add padding for spacing */
     font-weight: 500;
     font-size: 18px; /* Adjust font size if needed */
-    transition: background 0s ease; /* Smooth background color transition */
+   ; /* Smooth background color transition */
+    cursor: pointer;
 }
 
 .sidebar-item:hover {

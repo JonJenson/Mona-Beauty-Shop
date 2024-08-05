@@ -2,8 +2,8 @@ import './sidebar.css';
 
 import React from 'react';
 
-const Sidebar: React.FC = () => {
 
+const Sidebar: React.FC = () => {
 
     return (
         <div className="sidebar-wrapper">
@@ -25,6 +25,7 @@ const Sidebar: React.FC = () => {
                     <span>Feedback</span>
                 </li>
             </ul>
+
         </div>
     );
 }

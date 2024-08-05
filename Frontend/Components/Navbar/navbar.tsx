@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
           </div>
         </div>
       </div>
-      {isSidebarOpen && <Sidebar />}
+      {isSidebarOpen && <Sidebar/>}
     </nav>
   );
 };
