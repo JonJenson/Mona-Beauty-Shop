@@ -43,3 +43,7 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
 }
+a{
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+}

@@ -4,7 +4,10 @@
   height: 15vh;
   width: 100%;
   background-color: var(--color-B1B1B1-50);
-  position: relative; /* To allow absolute positioning of the logo */
+  position: fixed; /* Fixes the navbar to the top */
+  top: 0; /* Positions it at the very top */
+  left: 0; /* Ensures it spans the full width */
+  z-index: 1000; /* Ensures it stays on top of other elements */
 }
 
 i {
@@ -49,7 +52,7 @@ i {
   max-height: 80%; 
   object-fit: contain;
 }
-.right-icons .icon-container{
+
+.right-icons .icon-container {
   margin-right: 25px;
 }
-
