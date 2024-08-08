@@ -1,7 +1,7 @@
 #services {
   width: 100%;
   padding: 20px;
-  background-image: url("../../../Data/Images/services-bg.png");
+  background-image: url("/services-bg.png");
 }
 
 .services-cont {

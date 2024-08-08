@@ -1,8 +1,6 @@
 import React from "react";
 import "boxicons/css/boxicons.min.css";
-import { useState } from "react";
 import "./navbar.css";
-import  Logo  from "../../../Data/Images/logo-new.png"
 
 interface NavbarProps {
   isSidebarOpen: boolean;
@@ -19,7 +17,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggleSidebar }) => {
           </div>
         </div>
         <div className="logo-container">
-          <img src={Logo} alt="MONA" />
+          <img src="/logo-new.png" alt="MONA" />
         </div>
         <div className="right-icons">
           <div className="icon-container">

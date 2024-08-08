@@ -1,13 +1,13 @@
 import React from "react";
-import "./home1.css";
+import "./home3.css";
 import { Link } from "react-router-dom";
 
-const Home1: React.FC = () => {
+const Home3: React.FC = () => {
   return (
-    <section id="home1">
-      <div className="home1-cont">
-        <div className="home1-text-cont">
-          “Nothing wrong in being <br />
+    <section id="home3">
+      <div className="home3-cont">
+        <div className="home3-text-cont">
+          “Nothing<br />
           <span className="beauty-text">BEAUTY”</span>
           <div className="author-name">~Founder</div>
         </div>
@@ -21,4 +21,4 @@ const Home1: React.FC = () => {
   );
 };
 
-export default Home1;
+export default Home3;

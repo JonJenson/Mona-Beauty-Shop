@@ -29,7 +29,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
             </Link>
           </li>
           <li className="sidebar-item">
-            <Link to="" onClick={toggleSidebar}>
+            <Link to=" " onClick={toggleSidebar}>
               <i className="bx bx-wallet"></i>
               <span>Payout</span>
             </Link>
