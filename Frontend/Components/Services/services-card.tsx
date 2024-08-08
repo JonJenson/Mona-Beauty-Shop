@@ -4,7 +4,7 @@ import React from "react";
 interface ServicesCardProps {
   image: string;
   heading: string;
-  link: string; // Add link prop
+  link: string;
 }
 
 const ServicesCard: React.FC<ServicesCardProps> = ({ image, heading, link }) => {

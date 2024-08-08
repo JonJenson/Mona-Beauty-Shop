@@ -2,15 +2,14 @@ import React from "react";
 import "boxicons/css/boxicons.min.css";
 import { useState } from "react";
 import "./navbar.css";
-import Sidebar from "../Sidebar/sidebar";
-import  Logo  from "../../../Data/Images/Logo.png"
+import  Logo  from "../../../Data/Images/logo-new.png"
 
-const Navbar: React.FC = () => {
-  const [isSidebarOpen, setSidebarOpen] = useState(false);
+interface NavbarProps {
+  isSidebarOpen: boolean;
+  toggleSidebar: () => void;
+}
 
-  const toggleSidebar = () => {
-    setSidebarOpen(!isSidebarOpen);
-  };
+const Navbar: React.FC<NavbarProps> = ({ toggleSidebar }) => {
   return (
     <nav id="navbar">
       <div className="nav-contents">
@@ -31,7 +30,6 @@ const Navbar: React.FC = () => {
           </div>
         </div>
       </div>
-      {isSidebarOpen && <Sidebar/>}
     </nav>
   );
 };
