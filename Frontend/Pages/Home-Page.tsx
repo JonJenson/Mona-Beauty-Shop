@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from '../Components/Navbar/navbar';
-import Home from '../Components/Home/home';
+import Home1 from '../Components/Home1/home1';
 import Sidebar from '../Components/Sidebar/sidebar';
 
 const HomePage: React.FC = () => {
@@ -14,7 +14,7 @@ const HomePage: React.FC = () => {
     <div className="homepage-wrapper">
       <Navbar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
       {isSidebarOpen && <Sidebar isOpen = {isSidebarOpen} toggleSidebar={toggleSidebar} />}
-      <Home />
+      <Home1 />
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React from "react";
-import "./home.css";
+import "./home1.css";
 import { Link } from "react-router-dom";
 
-const Home: React.FC = () => {
+const Home1: React.FC = () => {
   return (
     <section id="home">
       <div className="home-cont">
@@ -21,4 +21,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Home1;
