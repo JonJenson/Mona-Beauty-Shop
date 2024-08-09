@@ -2,6 +2,7 @@ import React from "react";
 import { ServicesData } from "../../../Data/services-data";
 import ServicesCard from "./services-card";
 import "./services.css";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -18,6 +19,12 @@ const Services = () => {
             />
           ))}
         </div>
+      </div>
+      <div className="bridal-cont">
+        <Link to="" className="bridal">
+          <img src="./bridal-text.png" alt="BRIDAL" className="bridal-image" />
+          <span className="mona-text"> By MONA </span>
+        </Link>
       </div>
     </section>
   );

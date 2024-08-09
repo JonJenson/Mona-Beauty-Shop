@@ -44,9 +44,4 @@ export const ServicesData = [
     heading: "Treatment",
     link: "",
   },
-  {
-    image: "/Bridal.png",
-    heading: "Bridal",
-    link: "",
-  },
 ];

@@ -1,8 +1,9 @@
 #services {
   width: 100%;
   padding: 20px;
-  background-image: url("/services-bg.png");
+  background: linear-gradient(180deg, #DADBF7 30%, #FFC9E1 100%);
 }
+
 
 .services-cont {
   max-width: 1200px;
@@ -21,9 +22,9 @@
 
 .card-cont {
   display: flex;
-  flex-wrap: wrap; /* Allows the cards to wrap onto the next line if needed */
-  justify-content: center; /* Centers the cards horizontally */
-  gap: 10px; /* Adds space between the cards */
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 10px;
   padding: 10px;
 }
 
@@ -66,3 +67,32 @@
   font-size: 25px;
   white-space: nowrap;
 }
+.bridal-cont{
+  display: flex;
+  justify-content: center;
+}
+.bridal {
+  width: 80%;
+  padding: 20px;
+  background: linear-gradient(180deg,  #A4B1C1 40% , #0F1A3A 100%);  
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Ensures no content overflows the div */
+}
+.mona-text{
+  font-family: var(--Poppins);
+  font-size: 20px;
+  color: var(--color-white);
+  letter-spacing: 12px; 
+  font-weight: 300;
+}
+
+.bridal img.bridal-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ensures the image fits within the container without being distorted */
+}
+

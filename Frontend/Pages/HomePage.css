@@ -6,7 +6,7 @@
   .slide {
     position: absolute;
     width: 100%;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 1.5s ease-in-out;
     opacity: 0;
   }
   
