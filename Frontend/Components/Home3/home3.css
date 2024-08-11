@@ -2,11 +2,20 @@
     width: 100%;
     height: 85vh;
     position: relative;
-    top:15vh
+    top: 15vh;
 }
 
+.home3-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.39) 0%, rgba(255, 255, 255, 0.05) 45%, rgba(255, 255, 255, 0.56) 59%);
+    z-index: 1; 
+}
 .home3-cont {
-    background-image: url("/home.jpg");
+    background-image: url("/home-3.png");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -15,63 +24,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    position: relative;
+    align-items: flex-end;
+   
+    z-index: 2;
 }
 
-.home3-text-cont {
-    color: #032998;
-    font-family: 'Playfair Display', serif;
-    font-size: 60px;
-    font-weight: 700;
-    word-wrap: break-word;
+.home3-text {
     text-align: center;
-    position: relative; 
-    text-shadow: 0px 4px 15px var(--color-FDDF39);
-    display:flex;
-    flex-direction: column;
-}
-
-.beauty-text {
-    display: block;
-    width: 100%;
-    text-align: center;
-}
-.author-name{
-color: var(--color-black);
-font-size: 30px;
-font-family: var(--Poppins);
-font-weight:500;
-text-shadow:none;
-display: flex;
-justify-content:center;
-padding-left: 220px ;
-}
-
-.bottom-left-button {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    color: var(--color-black);
-    font-family: var(--Poppins);
-    font-size: 20px;
-    font-weight: 500;
-    height:42px;
-    width:125px;
-    background-color: var(--color-B1B1B1);
-    border-radius: 20px;
-    border-style: solid;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
-    cursor: pointer;
-}
-.bottom-left-button:hover{
-    background-color: var(--color-B1B1B1-50);
-}
-.bottom-left-button i {
-    font-size: 25px; 
-    color: var(--color-black);
+    flex-direction: column;
+    font-size: 40px;
+    font-family: var(--PlayfairDisplay);
+    color: black;
+    font-weight: 700;
+    z-index: 3; 
+    position: relative;
+    padding: 30px;
 }
 
+.membership {
+    color: #032998;
+}

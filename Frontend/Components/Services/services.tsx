@@ -5,9 +5,12 @@ import "./services.css";
 import { Link } from "react-router-dom";
 
 const Services = () => {
+
+
   return (
     <section id="services">
       <div className="services-cont">
+        
         <h2 className="services-title">Step into a World of Beauty!</h2>
         <div className="card-cont">
           {ServicesData.map((item, index) => (
@@ -23,7 +26,7 @@ const Services = () => {
       <div className="bridal-cont">
         <Link to="" className="bridal">
           <img src="./bridal-text.png" alt="BRIDAL" className="bridal-image" />
-          <span className="mona-text"> By MONA </span>
+          <span className="mona-text">By MONA</span>
         </Link>
       </div>
     </section>

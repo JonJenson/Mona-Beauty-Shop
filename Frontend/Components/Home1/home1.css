@@ -6,7 +6,7 @@
 }
 
 .home1-cont {
-    background-image: url("/home.jpg");
+    background-image: url("/home-1.jpg");
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
@@ -37,6 +37,7 @@
     width: 100%;
     text-align: center;
 }
+
 .author-name{
 color: var(--color-black);
 font-size: 30px;
@@ -44,8 +45,8 @@ font-family: var(--Poppins);
 font-weight:500;
 text-shadow:none;
 display: flex;
-justify-content:center;
-padding-left: 220px ;
+justify-content:flex-end;
+margin-right: 70px;
 }
 
 .bottom-left-button {

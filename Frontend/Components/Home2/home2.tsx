@@ -1,21 +1,16 @@
 import React from "react";
 import "./home2.css";
-import { Link } from "react-router-dom";
 
 const Home2: React.FC = () => {
   return (
     <section id="home2">
       <div className="home2-cont">
-        <div className="home2-text-cont">
-          “Nothing wrong in<br />
-          <span className="beauty-text">BEAUTY”</span>
-          <div className="author-name">~Founder</div>
+        <div className="home2-overlay"></div>
+        <div className="home2-text">
+          Regardless of colour, we elevate
+          <br />
+          what you got naturally with our premium service
         </div>
-        <Link to="/services">
-        <button className="bottom-left-button">
-          Explore <i className="bx bx-right-arrow-alt"></i>
-        </button>
-        </Link>
       </div>
     </section>
   );

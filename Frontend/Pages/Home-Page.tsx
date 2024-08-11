@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const components = [<Home1 key="home1" />, <Home2 key="home2" /> , <Home3 key="home3" />];
+  const components = [<Home1 key="home1" />,<Home2 key="home2" /> , <Home3 key="home3" />];
 
   const toggleSidebar = () => {
     setSidebarOpen(!isSidebarOpen);

@@ -71,6 +71,7 @@
   display: flex;
   justify-content: center;
 }
+
 .bridal {
   width: 80%;
   padding: 20px;
@@ -95,4 +96,3 @@
   max-height: 100%;
   object-fit: contain; /* Ensures the image fits within the container without being distorted */
 }
-

@@ -6,16 +6,13 @@ const Home3: React.FC = () => {
   return (
     <section id="home3">
       <div className="home3-cont">
-        <div className="home3-text-cont">
-          “Nothing<br />
-          <span className="beauty-text">BEAUTY”</span>
-          <div className="author-name">~Founder</div>
+        <div className="home3-overlay"> </div>
+        <div className="home3-text">
+          Save money & enjoy your monthly
+          <br />
+          beauty benefits on <br />
+          <span className="membership">Membership</span>
         </div>
-        <Link to="/services">
-        <button className="bottom-left-button">
-          Explore <i className="bx bx-right-arrow-alt"></i>
-        </button>
-        </Link>
       </div>
     </section>
   );
